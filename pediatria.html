@@ -66,6 +66,43 @@
         </div>
         <br>
         <br>
+        <div class="formulario">
+            <h3>Formulario de Consulta Pediátrica</h3>
+
+            <form method="post">
+                <label for="nombre_nino">Nombre del Niño:</label>
+                <input type="text" id="nombre_nino" name="nombre_nino">
+
+                <label for="edad_nino">Edad del Niño:</label>
+                <input type="number" id="edad_nino" name="edad_nino">
+
+                <label for="genero_nino">Género del Niño:</label>
+                <select id="genero_nino" name="genero_nino" required>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+
+                <label for="nombre_padre">Nombre del Padre/Tutor:</label>
+                <input type="text" id="nombre_padre" name="nombre_padre">
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo">
+
+                <label for="telefono">Teléfono de Contacto:</label>
+                <input type="tel" id="telefono" name="telefono">
+
+                <label for="motivo_consulta">Motivo de la Consulta:</label>
+                <textarea id="motivo_consulta" name="motivo_consulta" rows="4"></textarea>
+
+                <label for="comentarios">Comentarios Adicionales:</label>
+                <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+                <button type="submit">Enviar Consulta</button>
+            </form>
+        </div>
+        <br>
+        <br>
     </body>
     <footer>
         <br>
